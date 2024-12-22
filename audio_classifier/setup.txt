@@ -1,0 +1,15 @@
+docs link:https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/
+audio_classifier/python/audio_classification_live_stream
+
+1. Install dependencies:
+   Run the following command to install the required libraries:
+   pip install mediapipe
+
+2. Download the model:
+   - Visit the following link to download the TFLite model:
+     https://www.kaggle.com/models/google/yamnet/tfLite
+   - Save the model as `1.tflite` (or any name of your choice) in your working directory.
+
+3. Run the classification script:
+   After ensuring that the model is saved in the same directory as the script, run the following command:
+   python classify.py
